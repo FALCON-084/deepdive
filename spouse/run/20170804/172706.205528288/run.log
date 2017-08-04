@@ -1,0 +1,44 @@
+2017-08-04 17:27:09.497380 # on infinity-optiplex-3040: deepdive do articles
+2017-08-04 17:27:09.497434 # run/20170804/172706.205528288/plan.sh
+2017-08-04 17:27:09.497447 # execution plan for data/articles
+2017-08-04 17:27:09.497455 
+2017-08-04 17:27:09.497464 ## process/init/app ##########################################################
+2017-08-04 17:27:09.497473 # Done: N/A
+2017-08-04 17:27:09.497482 process/init/app/run.sh
+2017-08-04 17:27:09.497491 ++ dirname process/init/app/run.sh
+2017-08-04 17:27:09.497499 + cd process/init/app
+2017-08-04 17:27:09.497508 + export DEEPDIVE_CURRENT_PROCESS_NAME=process/init/app
+2017-08-04 17:27:09.497517 + DEEPDIVE_CURRENT_PROCESS_NAME=process/init/app
+2017-08-04 17:27:09.497525 + deepdive db init
+2017-08-04 17:27:11.599537 + cd /root/deepdive-0.8-STABLE/examples/spouse
+2017-08-04 17:27:11.599666 + [[ -r schema.sql ]]
+2017-08-04 17:27:11.599706 + [[ -x input/init.sh ]]
+2017-08-04 17:27:11.599734 + input/init.sh
+2017-08-04 17:27:11.625636 mark_done process/init/app
+2017-08-04 17:27:11.646279 ##############################################################################
+2017-08-04 17:27:11.646398 
+2017-08-04 17:27:11.646437 
+2017-08-04 17:27:11.646465 ## process/init/relation/articles ############################################
+2017-08-04 17:27:11.646492 # Done: N/A
+2017-08-04 17:27:11.646518 process/init/relation/articles/run.sh
+2017-08-04 17:27:11.650419 ++ dirname process/init/relation/articles/run.sh
+2017-08-04 17:27:11.651780 + cd process/init/relation/articles
+2017-08-04 17:27:11.651888 + export DEEPDIVE_CURRENT_PROCESS_NAME=process/init/relation/articles
+2017-08-04 17:27:11.651928 + DEEPDIVE_CURRENT_PROCESS_NAME=process/init/relation/articles
+2017-08-04 17:27:11.651967 + deepdive create table articles
+2017-08-04 17:27:11.948289 NOTICE:  table "articles" does not exist, skipping
+2017-08-04 17:27:12.006483 CREATE TABLE
+2017-08-04 17:27:12.008255 + deepdive load articles
+2017-08-04 17:27:12.149269 Loading articles from input/articles.tsv.sh (tsv format)
+2017-08-04 17:27:12.273272 COPY 25
+2017-08-04 17:27:12.275471 mark_done process/init/relation/articles
+2017-08-04 17:27:12.278773 ##############################################################################
+2017-08-04 17:27:12.278807 
+2017-08-04 17:27:12.278819 
+2017-08-04 17:27:12.278827 ## data/articles #############################################################
+2017-08-04 17:27:12.278835 # Done: N/A
+2017-08-04 17:27:12.278842 # no-op
+2017-08-04 17:27:12.278850 mark_done data/articles
+2017-08-04 17:27:12.282081 ##############################################################################
+2017-08-04 17:27:12.282116 
+2017-08-04 17:27:12.282129 

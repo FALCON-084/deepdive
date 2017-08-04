@@ -1,0 +1,80 @@
+2017-08-04 17:26:52.445271 ‘run/LATEST.COMPILE’ -> ‘20170804/172651.261120097’
+2017-08-04 17:26:52.445513 ‘run/RUNNING.COMPILE’ -> ‘20170804/172651.261120097’
+2017-08-04 17:26:52.445562 Parsing DeepDive application (/root/deepdive-0.8-STABLE/examples/spouse) to generate:
+2017-08-04 17:26:52.445593  run/compiled/schema.json
+2017-08-04 17:26:52.445626   from app.ddlog
+2017-08-04 17:26:53.767339  run/compiled/deepdive.conf
+2017-08-04 17:26:53.767394   from app.ddlog
+2017-08-04 17:26:54.316830   from deepdive.conf
+2017-08-04 17:26:54.329978  run/compiled/deepdive.conf.json
+2017-08-04 17:26:54.858698 Performing sanity checks on run/compiled/deepdive.conf.json:
+2017-08-04 17:26:55.020959  checking if input_extractors_well_defined
+2017-08-04 17:26:55.021041  checking if input_schema_wellformed
+2017-08-04 17:26:55.021315 Normalizing and adding built-in processes to the data flow to compile:
+2017-08-04 17:26:55.021706  run/compiled/config-0.00-init_objects.json
+2017-08-04 17:26:55.035663  run/compiled/config-0.01-parse_calibration.json
+2017-08-04 17:26:55.044590  run/compiled/config-0.01-parse_schema.json
+2017-08-04 17:26:55.078626  run/compiled/config-0.51-add_init_app.json
+2017-08-04 17:26:55.088419  run/compiled/config-0.52-input_loader.json
+2017-08-04 17:26:55.100779  run/compiled/config-1.00-qualified_names.json
+2017-08-04 17:26:55.114988  run/compiled/config-1.01-parse_inference_rules.json
+2017-08-04 17:26:55.188586  run/compiled/config-2.01-grounding.json
+2017-08-04 17:26:55.277956  run/compiled/config-2.02-learning_inference.json
+2017-08-04 17:26:55.295919  run/compiled/config-2.03-calibration_plots.json
+2017-08-04 17:26:55.310546  run/compiled/config-9.98-ensure_init_app.json
+2017-08-04 17:26:55.323811  run/compiled/config-9.99-dependencies.json
+2017-08-04 17:26:55.340948  run/compiled/config.json
+2017-08-04 17:26:55.341772 Validating run/compiled/config.json:
+2017-08-04 17:26:55.453619  checking if compiled_base_relations_have_input_data
+2017-08-04 17:26:55.453691  [WARNING] input/init.sh should load all base relations: articles spouses_dbpedia 
+2017-08-04 17:26:55.453700  checking if compiled_dependencies_correct
+2017-08-04 17:26:55.453722  checking if compiled_input_output_well_defined
+2017-08-04 17:26:55.453728  checking if compiled_output_uniquely_defined
+2017-08-04 17:26:55.453864 Compiling executable code into:
+2017-08-04 17:26:55.454105  run/compiled/code-cmd_extractor.json
+2017-08-04 17:26:55.477193  run/compiled/code-dataflow_dot.json
+2017-08-04 17:26:55.505781  run/compiled/code-Makefile.json
+2017-08-04 17:26:55.534442  run/compiled/code-sql_extractor.json
+2017-08-04 17:26:55.546169  run/compiled/code-tsv_extractor.json
+2017-08-04 17:26:55.576112 Generating files:
+2017-08-04 17:26:55.614593  run/process/init/app/run.sh
+2017-08-04 17:26:55.617444  run/process/init/relation/articles/run.sh
+2017-08-04 17:26:55.619981  run/process/init/relation/spouses_dbpedia/run.sh
+2017-08-04 17:26:55.622493  run/process/ext_has_spouse/run.sh
+2017-08-04 17:26:55.625093  run/process/ext_num_people/run.sh
+2017-08-04 17:26:55.627639  run/process/ext_spouse_candidate/run.sh
+2017-08-04 17:26:55.630260  run/process/ext_spouse_label/run.sh
+2017-08-04 17:26:55.632963  run/process/ext_spouse_label_resolved/run.sh
+2017-08-04 17:26:55.635564  run/process/grounding/variable_id_partition/run.sh
+2017-08-04 17:26:55.638231  run/process/grounding/variable/has_spouse/assign_id/run.sh
+2017-08-04 17:26:55.640798  run/process/grounding/variable_holdout/run.sh
+2017-08-04 17:26:55.644254  run/process/grounding/variable/has_spouse/dump/run.sh
+2017-08-04 17:26:55.647117  run/process/grounding/factor/inf1_imply_has_spouse_has_spouse/materialize/run.sh
+2017-08-04 17:26:55.649785  run/process/grounding/factor/inf_imply_has_spouse_has_spouse/materialize/run.sh
+2017-08-04 17:26:55.652489  run/process/grounding/factor/inf_istrue_has_spouse/materialize/run.sh
+2017-08-04 17:26:55.655232  run/process/grounding/weight_id_partition/run.sh
+2017-08-04 17:26:55.657893  run/process/grounding/global_weight_table/run.sh
+2017-08-04 17:26:55.660683  run/process/grounding/factor/inf1_imply_has_spouse_has_spouse/assign_weight_id/run.sh
+2017-08-04 17:26:55.663489  run/process/grounding/factor/inf_imply_has_spouse_has_spouse/assign_weight_id/run.sh
+2017-08-04 17:26:55.666387  run/process/grounding/factor/inf_istrue_has_spouse/assign_weight_id/run.sh
+2017-08-04 17:26:55.669691  run/process/grounding/factor/inf1_imply_has_spouse_has_spouse/dump/run.sh
+2017-08-04 17:26:55.673576  run/process/grounding/factor/inf_imply_has_spouse_has_spouse/dump/run.sh
+2017-08-04 17:26:55.678820  run/process/grounding/factor/inf_istrue_has_spouse/dump/run.sh
+2017-08-04 17:26:55.684345  run/process/grounding/factor/inf1_imply_has_spouse_has_spouse/dump_weights/run.sh
+2017-08-04 17:26:55.690616  run/process/grounding/factor/inf_imply_has_spouse_has_spouse/dump_weights/run.sh
+2017-08-04 17:26:55.696860  run/process/grounding/factor/inf_istrue_has_spouse/dump_weights/run.sh
+2017-08-04 17:26:55.703212  run/process/grounding/combine_factorgraph/run.sh
+2017-08-04 17:26:55.710728  run/process/model/learning/run.sh
+2017-08-04 17:26:55.716490  run/process/model/inference/run.sh
+2017-08-04 17:26:55.722437  run/process/model/load_weights/run.sh
+2017-08-04 17:26:55.728371  run/process/model/load_probabilities/run.sh
+2017-08-04 17:26:55.734209  run/process/model/calibration/run.sh
+2017-08-04 17:26:55.740059  run/dataflow.dot
+2017-08-04 17:26:55.747649  run/Makefile
+2017-08-04 17:26:55.759225  run/process/ext_person_mention_by_map_person_mention/run.sh
+2017-08-04 17:26:55.764939  run/process/ext_sentences_by_nlp_markup/run.sh
+2017-08-04 17:26:55.770792  run/process/ext_spouse_feature_by_extract_spouse_features/run.sh
+2017-08-04 17:26:55.777522  run/process/ext_spouse_label__0_by_supervise/run.sh
+2017-08-04 17:26:57.496029  run/dataflow.svg
+2017-08-04 17:26:57.496555   (file:///root/deepdive-0.8-STABLE/examples/spouse/run/dataflow.svg)
+2017-08-04 17:26:57.497244 ‘run/compiled’ -> ‘20170804/172651.261120097’

@@ -1,0 +1,60 @@
+2017-08-04 17:56:01.189306 # on infinity-optiplex-3040: deepdive do sentences
+2017-08-04 17:56:01.189357 # run/20170804/175559.576514194/plan.sh
+2017-08-04 17:56:01.189368 # execution plan for data/sentences
+2017-08-04 17:56:01.189375 
+2017-08-04 17:56:01.189383 : ## process/init/app ##########################################################
+2017-08-04 17:56:01.189390 : # Done: 2017-08-04T17:27:11+0530 (28m 48s ago)
+2017-08-04 17:56:01.189397 : process/init/app/run.sh
+2017-08-04 17:56:01.189404 : mark_done process/init/app
+2017-08-04 17:56:01.189411 : ##############################################################################
+2017-08-04 17:56:01.189419 
+2017-08-04 17:56:01.189426 
+2017-08-04 17:56:01.189432 : ## process/init/relation/articles ############################################
+2017-08-04 17:56:01.189438 : # Done: 2017-08-04T17:55:53+0530 (6s ago)
+2017-08-04 17:56:01.189445 : process/init/relation/articles/run.sh
+2017-08-04 17:56:01.189451 : mark_done process/init/relation/articles
+2017-08-04 17:56:01.189457 : ##############################################################################
+2017-08-04 17:56:01.189464 
+2017-08-04 17:56:01.189470 
+2017-08-04 17:56:01.189477 : ## data/articles #############################################################
+2017-08-04 17:56:01.189484 : # Done: 2017-08-04T17:55:53+0530 (6s ago)
+2017-08-04 17:56:01.189491 : # no-op
+2017-08-04 17:56:01.189498 : mark_done data/articles
+2017-08-04 17:56:01.189506 : ##############################################################################
+2017-08-04 17:56:01.189514 
+2017-08-04 17:56:01.189521 
+2017-08-04 17:56:01.189528 ## process/ext_sentences_by_nlp_markup #######################################
+2017-08-04 17:56:01.189535 # Done: N/A
+2017-08-04 17:56:01.189542 process/ext_sentences_by_nlp_markup/run.sh
+2017-08-04 17:56:01.189550 ++ dirname process/ext_sentences_by_nlp_markup/run.sh
+2017-08-04 17:56:01.189556 + cd process/ext_sentences_by_nlp_markup
+2017-08-04 17:56:01.189564 + export DEEPDIVE_CURRENT_PROCESS_NAME=process/ext_sentences_by_nlp_markup
+2017-08-04 17:56:01.189571 + DEEPDIVE_CURRENT_PROCESS_NAME=process/ext_sentences_by_nlp_markup
+2017-08-04 17:56:01.189578 + export DEEPDIVE_LOAD_FORMAT=tsv
+2017-08-04 17:56:01.189586 + DEEPDIVE_LOAD_FORMAT=tsv
+2017-08-04 17:56:01.189592 + deepdive compute execute 'input_sql= SELECT R0.id AS "articles.R0.id", R0.content AS "articles.R0.content"
+2017-08-04 17:56:01.189599 FROM articles R0
+2017-08-04 17:56:01.189606         
+2017-08-04 17:56:01.189614           ' 'command="$DEEPDIVE_APP"/udf/nlp_markup.sh' output_relation=sentences
+2017-08-04 17:56:01.193862 Executing with the following configuration:
+2017-08-04 17:56:01.193895  DEEPDIVE_NUM_PROCESSES=3
+2017-08-04 17:56:01.193905  DEEPDIVE_NUM_PARALLEL_UNLOADS=1
+2017-08-04 17:56:01.193913  DEEPDIVE_NUM_PARALLEL_LOADS=1
+2017-08-04 17:56:01.193950  output_relation_tmp=dd_tmp_sentences
+2017-08-04 17:56:01.193959 
+2017-08-04 17:56:01.317988 CREATE TABLE
+2017-08-04 17:56:01.567390 CREATE TABLE
+2017-08-04 17:56:01.657026 unloading to feed_processes-1: ' SELECT R0.id AS "articles.R0.id", R0.content AS "articles.R0.content"
+2017-08-04 17:56:01.657079 FROM articles R0
+2017-08-04 17:56:01.657089         
+2017-08-04 17:56:01.657097           '
+2017-08-04 17:56:01.660553 No Bazaar/Parser set up at: /root/deepdive-0.8-STABLE/examples/spouse/udf/bazaar/parser
+2017-08-04 17:56:01.661035 No Bazaar/Parser set up at: /root/deepdive-0.8-STABLE/examples/spouse/udf/bazaar/parser
+2017-08-04 17:56:01.661348 /root/local/util/compute-driver/local/compute-execute: line 141: kill: (9471) - No such process
+2017-08-04 17:56:01.661375 /root/local/util/compute-driver/local/compute-execute: line 141: kill: (9472) - No such process
+2017-08-04 17:56:01.662673 [ERROR] command='"$DEEPDIVE_APP"/udf/nlp_markup.sh': PID 9471: finished with non-zero exit status (0)
+2017-08-04 17:56:01.663006 /root/local/util/compute-driver/local/compute-execute: line 138:  9473 Terminated              DEEPDIVE_CURRENT_PROCESS_INDEX=$i bash -c "$command" < process-$i.input > process-$i.output
+2017-08-04 17:56:01.663031 /root/local/util/compute-driver/local/compute-execute: line 138:  9477 Terminated              mkmimo process-*.output \> output_computed-*
+2017-08-04 17:56:01.663040 /root/local/util/compute-driver/local/compute-execute: line 138:  9478 Terminated              deepdive-load "$output_relation_tmp" output_computed-*
+2017-08-04 17:56:01.663047 /root/local/util/compute-driver/local/compute-execute: line 138:  9485 Terminated              mkmimo feed_processes-* \> process-*.input
+2017-08-04 17:56:01.663479 /root/local/util/compute-driver/local/compute-execute: line 1:  9484 Terminated              deepdive-db unload "$input_sql" "$DEEPDIVE_LOAD_FORMAT" feed_processes-*

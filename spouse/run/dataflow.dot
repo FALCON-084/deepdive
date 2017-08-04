@@ -1,0 +1,692 @@
+
+digraph "spouse data flow" {
+    graph[rankdir=BT  # bottom-to-top drawing (or RL/right-to-left may also make sense)
+    ];
+    node [shape=box
+         ,style=dotted
+         ,fontsize=10
+         ,fontname="Ubuntu Mono,Envy Code R,Oxygen Mono,Consolas,Menlo,Monaco,Andale Mono"
+    ];
+    edge [color="#999999"];
+
+
+"process/
+init/app" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+init/relation/articles" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+init/app" -> "process/
+init/relation/articles" [
+label=""
+
+];
+
+"process/
+init/relation/spouses_dbpedia" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+init/app" -> "process/
+init/relation/spouses_dbpedia" [
+label=""
+
+];
+
+"process/
+ext_has_spouse" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+spouse_label_resolved" -> "process/
+ext_has_spouse" [
+label=""
+
+];
+
+"process/
+ext_num_people" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+person_mention" -> "process/
+ext_num_people" [
+label=""
+
+];
+
+"process/
+ext_person_mention_by_map_person_mention" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+sentences" -> "process/
+ext_person_mention_by_map_person_mention" [
+label=""
+
+];
+
+"process/
+ext_sentences_by_nlp_markup" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+articles" -> "process/
+ext_sentences_by_nlp_markup" [
+label=""
+
+];
+
+"process/
+ext_spouse_candidate" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+num_people" -> "process/
+ext_spouse_candidate" [
+label=""
+
+];
+
+"data/
+person_mention" -> "process/
+ext_spouse_candidate" [
+label=""
+
+];
+
+"process/
+ext_spouse_feature_by_extract_spouse_features" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+person_mention" -> "process/
+ext_spouse_feature_by_extract_spouse_features" [
+label=""
+
+];
+
+"data/
+sentences" -> "process/
+ext_spouse_feature_by_extract_spouse_features" [
+label=""
+
+];
+
+"process/
+ext_spouse_label" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+spouse_candidate" -> "process/
+ext_spouse_label" [
+label=""
+
+];
+
+"data/
+spouse_label__0" -> "process/
+ext_spouse_label" [
+label=""
+
+];
+
+"data/
+spouses_dbpedia" -> "process/
+ext_spouse_label" [
+label=""
+
+];
+
+"process/
+ext_spouse_label__0_by_supervise" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+person_mention" -> "process/
+ext_spouse_label__0_by_supervise" [
+label=""
+
+];
+
+"data/
+sentences" -> "process/
+ext_spouse_label__0_by_supervise" [
+label=""
+
+];
+
+"data/
+spouse_candidate" -> "process/
+ext_spouse_label__0_by_supervise" [
+label=""
+
+];
+
+"process/
+ext_spouse_label_resolved" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+spouse_label" -> "process/
+ext_spouse_label_resolved" [
+label=""
+
+];
+
+"process/
+grounding/variable_id_partition" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+has_spouse" -> "process/
+grounding/variable_id_partition" [
+label=""
+
+];
+
+"process/
+grounding/variable/has_spouse/assign_id" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/variable_id_partition" -> "process/
+grounding/variable/has_spouse/assign_id" [
+label=""
+
+];
+
+"process/
+grounding/variable_holdout" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/variable/has_spouse/assign_id" -> "process/
+grounding/variable_holdout" [
+label=""
+
+];
+
+"process/
+grounding/variable/has_spouse/dump" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/variable_holdout" -> "process/
+grounding/variable/has_spouse/dump" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/materialize" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+spouse_candidate" -> "process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/materialize" [
+label=""
+
+];
+
+"process/
+grounding/variable/has_spouse/assign_id" -> "process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/materialize" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_imply_has_spouse_has_spouse/materialize" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+spouse_candidate" -> "process/
+grounding/factor/inf_imply_has_spouse_has_spouse/materialize" [
+label=""
+
+];
+
+"process/
+grounding/variable/has_spouse/assign_id" -> "process/
+grounding/factor/inf_imply_has_spouse_has_spouse/materialize" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_spouse/materialize" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+spouse_candidate" -> "process/
+grounding/factor/inf_istrue_has_spouse/materialize" [
+label=""
+
+];
+
+"data/
+spouse_feature" -> "process/
+grounding/factor/inf_istrue_has_spouse/materialize" [
+label=""
+
+];
+
+"process/
+grounding/variable/has_spouse/assign_id" -> "process/
+grounding/factor/inf_istrue_has_spouse/materialize" [
+label=""
+
+];
+
+"process/
+grounding/weight_id_partition" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/materialize" -> "process/
+grounding/weight_id_partition" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_imply_has_spouse_has_spouse/materialize" -> "process/
+grounding/weight_id_partition" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_spouse/materialize" -> "process/
+grounding/weight_id_partition" [
+label=""
+
+];
+
+"process/
+grounding/global_weight_table" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/materialize" -> "process/
+grounding/global_weight_table" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_imply_has_spouse_has_spouse/materialize" -> "process/
+grounding/global_weight_table" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_spouse/materialize" -> "process/
+grounding/global_weight_table" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/assign_weight_id" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/weight_id_partition" -> "process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/assign_weight_id" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_imply_has_spouse_has_spouse/assign_weight_id" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/weight_id_partition" -> "process/
+grounding/factor/inf_imply_has_spouse_has_spouse/assign_weight_id" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_spouse/assign_weight_id" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/weight_id_partition" -> "process/
+grounding/factor/inf_istrue_has_spouse/assign_weight_id" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/dump" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/assign_weight_id" -> "process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/dump" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_imply_has_spouse_has_spouse/dump" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf_imply_has_spouse_has_spouse/assign_weight_id" -> "process/
+grounding/factor/inf_imply_has_spouse_has_spouse/dump" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_spouse/dump" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf_istrue_has_spouse/assign_weight_id" -> "process/
+grounding/factor/inf_istrue_has_spouse/dump" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/dump_weights" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/assign_weight_id" -> "process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/dump_weights" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_imply_has_spouse_has_spouse/dump_weights" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf_imply_has_spouse_has_spouse/assign_weight_id" -> "process/
+grounding/factor/inf_imply_has_spouse_has_spouse/dump_weights" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_spouse/dump_weights" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf_istrue_has_spouse/assign_weight_id" -> "process/
+grounding/factor/inf_istrue_has_spouse/dump_weights" [
+label=""
+
+];
+
+"process/
+grounding/combine_factorgraph" [shape=ellipse  color="#cc2222" style=solid];
+
+"process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/dump" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf1_imply_has_spouse_has_spouse/dump_weights" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_imply_has_spouse_has_spouse/dump" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_imply_has_spouse_has_spouse/dump_weights" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_spouse/dump" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+grounding/factor/inf_istrue_has_spouse/dump_weights" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+grounding/global_weight_table" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+grounding/variable/has_spouse/dump" -> "process/
+grounding/combine_factorgraph" [
+label=""
+
+];
+
+"process/
+model/learning" [shape=ellipse  color="#cc2222" style=solid];
+
+"model/
+factorgraph" -> "process/
+model/learning" [
+label=""
+
+];
+
+"process/
+model/inference" [shape=ellipse  color="#cc2222" style=solid];
+
+"model/
+factorgraph" -> "process/
+model/inference" [
+label=""
+
+];
+
+"model/
+weights" -> "process/
+model/inference" [
+label=""
+
+];
+
+"process/
+model/load_weights" [shape=ellipse  color="#cc2222" style=solid];
+
+"model/
+weights" -> "process/
+model/load_weights" [
+label=""
+
+];
+
+"process/
+model/load_probabilities" [shape=ellipse  color="#cc2222" style=solid];
+
+"model/
+probabilities" -> "process/
+model/load_probabilities" [
+label=""
+
+];
+
+"process/
+model/calibration" [shape=ellipse  color="#cc2222" style=solid];
+
+"data/
+model/probabilities" -> "process/
+model/calibration" [
+label=""
+
+];
+
+"data/
+articles" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+init/relation/articles" -> "data/
+articles" [
+label=""
+
+];
+
+"data/
+has_spouse" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_has_spouse" -> "data/
+has_spouse" [
+label=""
+
+];
+
+"data/
+model/probabilities" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+model/load_probabilities" -> "data/
+model/probabilities" [
+label=""
+
+];
+
+"data/
+model/weights" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+model/load_weights" -> "data/
+model/weights" [
+label=""
+
+];
+
+"data/
+num_people" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_num_people" -> "data/
+num_people" [
+label=""
+
+];
+
+"data/
+person_mention" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_person_mention_by_map_person_mention" -> "data/
+person_mention" [
+label=""
+
+];
+
+"data/
+sentences" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_sentences_by_nlp_markup" -> "data/
+sentences" [
+label=""
+
+];
+
+"data/
+spouse_candidate" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_spouse_candidate" -> "data/
+spouse_candidate" [
+label=""
+
+];
+
+"data/
+spouse_feature" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_spouse_feature_by_extract_spouse_features" -> "data/
+spouse_feature" [
+label=""
+
+];
+
+"data/
+spouse_label" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_spouse_label" -> "data/
+spouse_label" [
+label=""
+
+];
+
+"data/
+spouse_label__0" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_spouse_label__0_by_supervise" -> "data/
+spouse_label__0" [
+label=""
+
+];
+
+"data/
+spouse_label_resolved" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+ext_spouse_label_resolved" -> "data/
+spouse_label_resolved" [
+label=""
+
+];
+
+"data/
+spouses_dbpedia" [shape=box3d    color="#2222cc" style=solid];
+
+"process/
+init/relation/spouses_dbpedia" -> "data/
+spouses_dbpedia" [
+label=""
+
+];
+
+"model/
+calibration-plots" [shape=septagon color="#ffffff" style=filled fillcolor="#cc22cc"];
+
+"process/
+model/calibration" -> "model/
+calibration-plots" [
+label=""
+
+];
+
+"model/
+factorgraph" [shape=septagon color="#ffffff" style=filled fillcolor="#cc22cc"];
+
+"process/
+grounding/combine_factorgraph" -> "model/
+factorgraph" [
+label=""
+
+];
+
+"model/
+probabilities" [shape=septagon color="#ffffff" style=filled fillcolor="#cc22cc"];
+
+"process/
+model/inference" -> "model/
+probabilities" [
+label=""
+
+];
+
+"model/
+weights" [shape=septagon color="#ffffff" style=filled fillcolor="#cc22cc"];
+
+"process/
+model/learning" -> "model/
+weights" [
+label=""
+
+];
+
+
+}
+
