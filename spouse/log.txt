@@ -1,0 +1,235 @@
+2017-08-04 18:31:27.683015 602300K .......... .......... .......... .......... .......... 99%  812K 9s
+2017-08-04 18:31:27.740000 602350K .......... .......... .......... .......... .......... 99%  878K 9s
+2017-08-04 18:31:27.741735 602400K .......... .......... .......... .......... .......... 99% 27.4M 9s
+2017-08-04 18:31:27.798250 602450K .......... .......... .......... .......... .......... 99%  886K 9s
+2017-08-04 18:31:27.852495 602500K .......... .......... .......... .......... .......... 99%  922K 8s
+2017-08-04 18:31:27.907750 602550K .......... .......... .......... .......... .......... 99%  904K 8s
+2017-08-04 18:31:27.909380 602600K .......... .......... .......... .......... .......... 99% 29.7M 8s
+2017-08-04 18:31:28.489115 602650K .......... .......... .......... .......... .......... 99% 86.3K 8s
+2017-08-04 18:31:28.545837 602700K .......... .......... .......... .......... .......... 99%  881K 8s
+2017-08-04 18:31:28.604652 602750K .......... .......... .......... .......... .......... 99%  851K 8s
+2017-08-04 18:31:28.662388 602800K .......... .......... .......... .......... .......... 99%  866K 7s
+2017-08-04 18:31:28.721263 602850K .......... .......... .......... .......... .......... 99%  850K 7s
+2017-08-04 18:31:28.781002 602900K .......... .......... .......... .......... .......... 99%  843K 7s
+2017-08-04 18:31:28.782309 602950K .......... .......... .......... .......... .......... 99% 27.4M 7s
+2017-08-04 18:31:28.843899 603000K .......... .......... .......... .......... .......... 99%  811K 7s
+2017-08-04 18:31:28.903956 603050K .......... .......... .......... .......... .......... 99%  833K 7s
+2017-08-04 18:31:29.378176 603100K .......... .......... .......... .......... .......... 99%  105K 6s
+2017-08-04 18:31:29.585910 603150K .......... .......... .......... .......... .......... 99%  241K 6s
+2017-08-04 18:31:29.714275 603200K .......... .......... .......... .......... .......... 99%  388K 6s
+2017-08-04 18:31:29.715977 603250K .......... .......... .......... .......... .......... 99% 27.2M 6s
+2017-08-04 18:31:29.841151 603300K .......... .......... .......... .......... .......... 99%  400K 6s
+2017-08-04 18:31:29.843466 603350K .......... .......... .......... .......... .......... 99% 20.3M 6s
+2017-08-04 18:31:29.904685 603400K .......... .......... .......... .......... .......... 99%  817K 5s
+2017-08-04 18:31:29.968104 603450K .......... .......... .......... .......... .......... 99%  790K 5s
+2017-08-04 18:31:30.032480 603500K .......... .......... .......... .......... .......... 99%  776K 5s
+2017-08-04 18:31:30.034391 603550K .......... .......... .......... .......... .......... 99% 25.7M 5s
+2017-08-04 18:31:30.352456 603600K .......... .......... .......... .......... .......... 99%  157K 5s
+2017-08-04 18:31:30.354559 603650K .......... .......... .......... .......... .......... 99% 24.3M 5s
+2017-08-04 18:31:30.420257 603700K .......... .......... .......... .......... .......... 99%  760K 4s
+2017-08-04 18:31:30.485685 603750K .......... .......... .......... .......... .......... 99%  765K 4s
+2017-08-04 18:31:30.487879 603800K .......... .......... .......... .......... .......... 99% 22.0M 4s
+2017-08-04 18:31:30.550299 603850K .......... .......... .......... .......... .......... 99%  802K 4s
+2017-08-04 18:31:30.552546 603900K .......... .......... .......... .......... .......... 99% 21.3M 4s
+2017-08-04 18:31:30.614697 603950K .......... .......... .......... .......... .......... 99%  804K 4s
+2017-08-04 18:31:30.617273 604000K .......... .......... .......... .......... .......... 99% 19.2M 3s
+2017-08-04 18:31:30.678720 604050K .......... .......... .......... .......... .......... 99%  813K 3s
+2017-08-04 18:31:31.662534 604100K .......... .......... .......... .......... .......... 99% 50.8K 3s
+2017-08-04 18:31:31.730131 604150K .......... .......... .......... .......... .......... 99%  738K 3s
+2017-08-04 18:31:31.800299 604200K .......... .......... .......... .......... .......... 99%  713K 3s
+2017-08-04 18:31:31.867402 604250K .......... .......... .......... .......... .......... 99%  745K 3s
+2017-08-04 18:31:31.935502 604300K .......... .......... .......... .......... .......... 99%  733K 2s
+2017-08-04 18:31:32.003895 604350K .......... .......... .......... .......... .......... 99%  731K 2s
+2017-08-04 18:31:32.005763 604400K .......... .......... .......... .......... .......... 99% 25.9M 2s
+2017-08-04 18:31:32.075662 604450K .......... .......... .......... .......... .......... 99%  716K 2s
+2017-08-04 18:31:32.144642 604500K .......... .......... .......... .......... .......... 99%  724K 2s
+2017-08-04 18:31:32.433145 604550K .......... .......... .......... .......... .......... 99%  173K 2s
+2017-08-04 18:31:32.434905 604600K .......... .......... .......... .......... .......... 99% 26.5M 1s
+2017-08-04 18:31:32.503089 604650K .......... .......... .......... .......... .......... 99%  741K 1s
+2017-08-04 18:31:32.504744 604700K .......... .......... .......... .......... .......... 99% 21.4M 1s
+2017-08-04 18:31:32.573234 604750K .......... .......... .......... .......... .......... 99%  730K 1s
+2017-08-04 18:31:32.575408 604800K .......... .......... .......... .......... .......... 99% 23.2M 1s
+2017-08-04 18:31:32.648354 604850K .......... .......... .......... .......... .......... 99%  685K 1s
+2017-08-04 18:31:32.650531 604900K .......... .......... .......... .......... .......... 99% 23.4M 0s
+2017-08-04 18:31:32.721783 604950K .......... .......... .......... .......... .......... 99%  701K 0s
+2017-08-04 18:31:32.724118 605000K .......... .......... .......... .......... .......... 99% 21.8M 0s
+2017-08-04 18:31:32.795263 605050K .......... .......... .......... .......              100%  524K=33m38s
+2017-08-04 18:31:32.795380 
+2017-08-04 18:31:32.795420 2017-08-04 18:31:32 (300 KB/s) - ‘/root/deepdive-0.8-STABLE/examples/spouse/udf/bazaar/parser/lib/stanford-srparser-2014-10-23-models.jar’ saved [619609450/619609450]
+2017-08-04 18:31:32.795456 
+2017-08-04 18:31:40.352497 [info] Loading project definition from /root/deepdive-0.8-STABLE/examples/spouse/udf/bazaar/parser/project
+2017-08-04 18:31:40.556954 [info] Updating {file:/root/deepdive-0.8-STABLE/examples/spouse/udf/bazaar/parser/project/}parser-build...
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+2017-08-04 18:31:42.278313 [info] Done updating.
+2017-08-04 18:31:44.314148 [info] Set current project to deepdive-nlp-parser (in build file:/root/deepdive-0.8-STABLE/examples/spouse/udf/bazaar/parser/)
+2017-08-04 18:31:44.493506 [info] Updating {file:/root/deepdive-0.8-STABLE/examples/spouse/udf/bazaar/parser/}parser...
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+2017-08-04 18:31:45.571164 [info] Done updating.
+2017-08-04 18:31:45.583586 [warn] Scala version was updated by one of library dependencies:
+2017-08-04 18:31:45.583663 [warn] 	* org.scala-lang:scala-library:(2.10.3, 2.10.4, 2.10.2, 2.10.0) -> 2.10.5
+2017-08-04 18:31:45.583675 [warn] To force scalaVersion, add the following:
+2017-08-04 18:31:45.583683 [warn] 	ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }
+2017-08-04 18:31:45.583690 [warn] Run 'evicted' to see detailed eviction warnings
+2017-08-04 18:31:45.712420 [info] Compiling 6 Scala sources to /root/deepdive-0.8-STABLE/examples/spouse/udf/bazaar/parser/target/scala-2.10/classes...
+2017-08-04 18:31:53.881100 [info] Wrote start script for mainClass := Some(com.clearcut.nlp.Main) to /root/deepdive-0.8-STABLE/examples/spouse/udf/bazaar/parser/target/start
+2017-08-04 18:31:53.886117 [success] Total time: 9 s, completed 4 Aug, 2017 6:31:53 PM
+2017-08-04 18:31:53.899555 mark_done process/init/app
+2017-08-04 18:31:53.902701 ##############################################################################
+2017-08-04 18:31:53.902729 
+2017-08-04 18:31:53.902738 
+2017-08-04 18:31:53.902745 ## process/init/relation/articles ############################################
+2017-08-04 18:31:53.902751 : # Done: 2017-08-04T17:55:53+0530 (1m 46s ago)
+2017-08-04 18:31:53.902757 # Done: 2017-08-04T17:55:53+0530 (1m 45s ago)
+2017-08-04 18:31:53.902764 process/init/relation/articles/run.sh
+2017-08-04 18:31:53.903936 ++ dirname process/init/relation/articles/run.sh
+2017-08-04 18:31:53.904297 + cd process/init/relation/articles
+2017-08-04 18:31:53.904321 + export DEEPDIVE_CURRENT_PROCESS_NAME=process/init/relation/articles
+2017-08-04 18:31:53.904330 + DEEPDIVE_CURRENT_PROCESS_NAME=process/init/relation/articles
+2017-08-04 18:31:53.904337 + deepdive create table articles
+2017-08-04 18:31:53.987160 NOTICE:  table "articles" does not exist, skipping
+2017-08-04 18:31:54.065230 CREATE TABLE
+2017-08-04 18:31:54.066843 + deepdive load articles
+2017-08-04 18:31:54.165566 Loading articles from input/articles.tsv.sh (tsv format)
+loading articles: 0:00:00 83.2KiB [10.6MiB/s] ([10.6MiB/s])
+loading articles: 0:00:00   25  [ 545 /s] ([ 545 /s])
+2017-08-04 18:31:54.232021 COPY 25
+2017-08-04 18:31:54.234136 mark_done process/init/relation/articles
+2017-08-04 18:31:54.236849 ##############################################################################
+2017-08-04 18:31:54.236879 
+2017-08-04 18:31:54.236888 
+2017-08-04 18:31:54.236894 ## data/articles #############################################################
+2017-08-04 18:31:54.236925 : # Done: 2017-08-04T17:55:53+0530 (1m 46s ago)
+2017-08-04 18:31:54.236931 # Done: 2017-08-04T17:55:53+0530 (1m 45s ago)
+2017-08-04 18:31:54.236937 # no-op
+2017-08-04 18:31:54.236943 mark_done data/articles
+2017-08-04 18:31:54.239694 ##############################################################################
+2017-08-04 18:31:54.239718 
+2017-08-04 18:31:54.239727 
+2017-08-04 18:31:54.239757 ## process/ext_sentences_by_nlp_markup #######################################
+2017-08-04 18:31:54.239776 # Done: N/A
+2017-08-04 18:31:54.239782 process/ext_sentences_by_nlp_markup/run.sh
+2017-08-04 18:31:54.240936 ++ dirname process/ext_sentences_by_nlp_markup/run.sh
+2017-08-04 18:31:54.241318 + cd process/ext_sentences_by_nlp_markup
+2017-08-04 18:31:54.241341 + export DEEPDIVE_CURRENT_PROCESS_NAME=process/ext_sentences_by_nlp_markup
+2017-08-04 18:31:54.241349 + DEEPDIVE_CURRENT_PROCESS_NAME=process/ext_sentences_by_nlp_markup
+2017-08-04 18:31:54.241356 + export DEEPDIVE_LOAD_FORMAT=tsv
+2017-08-04 18:31:54.241362 + DEEPDIVE_LOAD_FORMAT=tsv
+2017-08-04 18:31:54.241368 + deepdive compute execute 'input_sql= SELECT R0.id AS "articles.R0.id", R0.content AS "articles.R0.content"
+2017-08-04 18:31:54.241390 FROM articles R0
+2017-08-04 18:31:54.241400         
+2017-08-04 18:31:54.241422           ' 'command="$DEEPDIVE_APP"/udf/nlp_markup.sh' output_relation=sentences
+2017-08-04 18:31:54.264879 Executing with the following configuration:
+2017-08-04 18:31:54.264925  DEEPDIVE_NUM_PROCESSES=3
+2017-08-04 18:31:54.264934  DEEPDIVE_NUM_PARALLEL_UNLOADS=1
+2017-08-04 18:31:54.264940  DEEPDIVE_NUM_PARALLEL_LOADS=1
+2017-08-04 18:31:54.264948  output_relation_tmp=dd_tmp_sentences
+2017-08-04 18:31:54.264954 
+2017-08-04 18:31:54.342951 NOTICE:  table "sentences" does not exist, skipping
+2017-08-04 18:31:54.407289 CREATE TABLE
+2017-08-04 18:31:54.624215 CREATE TABLE
+2017-08-04 18:31:54.718214 unloading to feed_processes-1: ' SELECT R0.id AS "articles.R0.id", R0.content AS "articles.R0.content"
+2017-08-04 18:31:54.718271 FROM articles R0
+2017-08-04 18:31:54.718283         
+2017-08-04 18:31:54.718292           '
+2017-08-04 18:31:54.729731 Loading dd_tmp_sentences from output_computed-1 (tsv format)
+unloading: 0:00:00 83.2KiB [1.55MiB/s] ([1.55MiB/s])
+
+unloading: 0:00:00   25  [ 445 /s] ([ 445 /s])
+
+2017-08-04 18:31:55.162749 Parsing with max_len=100
+2017-08-04 18:31:55.194569 Parsing with max_len=100
+2017-08-04 18:31:55.195061 Parsing with max_len=100
+2017-08-04 18:31:55.386834 Adding annotator tokenize
+2017-08-04 18:31:55.386890 Adding annotator tokenize
+2017-08-04 18:31:55.389191 TokenizerAnnotator: No tokenizer type provided. Defaulting to PTBTokenizer.
+2017-08-04 18:31:55.392041 TokenizerAnnotator: No tokenizer type provided. Defaulting to PTBTokenizer.
+2017-08-04 18:31:55.392392 Adding annotator cleanxml
+2017-08-04 18:31:55.395523 Adding annotator cleanxml
+2017-08-04 18:31:55.401273 Adding annotator tokenize
+2017-08-04 18:31:55.404634 TokenizerAnnotator: No tokenizer type provided. Defaulting to PTBTokenizer.
+2017-08-04 18:31:55.411348 Adding annotator ssplit
+2017-08-04 18:31:55.412635 Adding annotator pos
+2017-08-04 18:31:55.414053 Adding annotator ssplit
+2017-08-04 18:31:55.416376 Adding annotator cleanxml
+2017-08-04 18:31:55.416964 Adding annotator pos
+2017-08-04 18:31:55.431961 Adding annotator ssplit
+loading dd_tmp_sentences: 0:00:02    0 B [   0 B/s] ([   0 B/s])2017-08-04 18:31:57.413207 Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger ... Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger ... Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger ... done [1.9 sec].
+2017-08-04 18:31:57.413377 Adding annotator lemma
+loading dd_tmp_sentences: 0:00:03    0 B [   0 B/s] ([   0 B/s])2017-08-04 18:31:57.889289 Loading classifier from edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz ... done [2.4 sec].
+2017-08-04 18:31:57.889448 Adding annotator lemma
+2017-08-04 18:31:57.889862 Adding annotator ner
+2017-08-04 18:31:57.978213 done [2.5 sec].
+2017-08-04 18:31:57.978474 Adding annotator lemma
+loading dd_tmp_sentences: 0:00:05    0 B [   0 B/s] ([   0 B/s])2017-08-04 18:32:00.627588 Loading classifier from edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz ... Loading classifier from edu/stanford/nlp/models/nloading dd_tmp_sentences: 0:00:06    0 B [   0 B/s] ([   0 B/s])2017-08-04 18:32:00.837190 Loading classifier from edu/stanford/nlp/models/ner/english.muc.7class.distsim.crf.ser.gz ... done [2.8 sec].
+2017-08-04 18:32:01.434478 Loading classifier from edu/stanford/nlp/models/ner/english.muc.7class.distsim.crf.ser.gz loading dd_tmp_sentences: 0:00:09    0 B [   0 B/s] ([   0 B/s])2017-08-04 18:32:03.792833 Loading classifier from edu/stanford/nlp/models/ner/english.muc.7class.distsim.crf.ser.gz ... done [3.1 sec].
+2017-08-04 18:32:03.997245 Loading classifier from edu/stanford/nlp/models/ner/english.conll.4class.distsim.crf.ser.gz ... done [3.2 sec].
+2017-08-04 18:32:04.589295 Loading classifier from edu/stanford/nlp/models/ner/english.conll.4class.distsim.crf.ser.gloading dd_tmp_sentences: 0:00:10    0 B [   0 B/s] ([   0 B/s])2017-08-04 18:32:05.570869 Loading classifier from edu/stanford/nlp/models/ner/english.conll.4class.distsim.crf.ser.gz ... done [1.8 sec].
+2017-08-04 18:32:05.580816 sutime.binder.1.
+2017-08-04 18:32:05.580869 Initializing JollyDayHoliday for sutime with classpath:edu/stanford/nlp/models/sutime/jollyday/Holidays_sutime.xml
+loading dd_tmp_sentences: 0:00:11    0  [   0 /s] ([   0 /s])2017-08-04 18:32:05.737037 sutime.binder.1.
+2017-08-04 18:32:05.737224 Initializing JollyDayHoliday for sutime with classpath:edu/stanford/nlp/models/sutime/jollloading dd_tmp_sentences: 0:00:11    0 B [   0 B/s] ([   0 B/s])2017-08-04 18:32:06.284594 Reading TokensRegex rules from edu/stanford/nlp/models/sutime/defs.sutime.txt
+2017-08-04 18:32:06.565298 Reading TokensRegex rules from edu/stanford/nlp/models/sutime/defs.sutime.txt
+2017-08-04 18:32:06.629352 Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.sutime.txtReading TokensRegex rules from edu/stanford/nlp/models/sutime/english.sutime.txt
+2017-08-04 18:32:06.629467 
+2017-08-04 18:32:06.666345 done [2.1 sec].
+2017-08-04 18:32:06.668294 sutime.binder.1.
+2017-08-04 18:32:06.669786 Initializing JollyDayHoliday for sutime with classpath:edu/stanford/nlp/models/sutime/jollloading dd_tmp_sentences: 0:00:12    0 B [   0 B/s] ([   0 B/s])2017-08-04 18:32:07.048869 Aug 04, 2017 6:32:07 PM edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor appendRules
+2017-08-04 18:32:07.048936 INFO: Ignoring inactive rule: null
+2017-08-04 18:32:07.051028 Aug 04, 2017 6:32:07 PM edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor appendRules
+2017-08-04 18:32:07.051091 INFO: Ignoring inactive rule: temporal-composite-8:ranges
+2017-08-04 18:32:07.051372 Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.holidays.sutime.txt
+2017-08-04 18:32:07.078942 Adding annotator parse
+2017-08-04 18:32:07.079805 Aug 04, 2017 6:32:07 PM edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor appendRules
+2017-08-04 18:32:07.080061 INFO: Ignoring inactive rule: null
+2017-08-04 18:32:07.083893 Aug 04, 2017 6:32:07 PM edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor appendRules
+2017-08-04 18:32:07.083986 INFO: Ignoring inactive rule: temporal-composite-8:ranges
+2017-08-04 18:32:07.084400 Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.holidays.sutime.txt
+2017-08-04 18:32:07.104887 Adding annotator parse
+2017-08-04 18:32:07.150017 Loading parser from serialized file edu/stanford/nlp/models/srparser/englishSR.ser.gz ...Loading parser from serialized file edu/stanford/nlp/models/srparser/englishSR.ser.gz ...Reading TokensRegex rules from edu/stanford/nlp/models/sutime/defs.sutime.txt
+loading dd_tmp_sentences: 0:00:13    0 B [   0 B/s] ([   0 B/s])2017-08-04 18:32:07.954690 Aug 04, 2017 6:32:07 PM edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor appendRules
+2017-08-04 18:32:07.954781 INFO: Ignoring inactive rule: null
+2017-08-04 18:32:07.955299 Aug 04, 2017 6:32:07 PM edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor appendRules
+2017-08-04 18:32:07.955320 INFO: Ignoring inactive rule: temporal-composite-8:ranges
+2017-08-04 18:32:07.955431 Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.holidays.sutime.txt
+loading dd_tmp_sentences: 0:00:33    0 B [   0 B/s] ([   0 B/s])2017-08-04 18:32:27.492876 Loading parser from serialized file edu/stanford/nlp/models/srparser/englishSR.ser.gz ...done [20.2 sec].
+loading dd_tmp_sentences: 0:00:35    0  [   0 /s] ([   0 /s])2017-08-04 18:32:29.786516 OpenJDK 64-Bit Server VM warnloading dd_tmp_sentences: 0:00:36    0  [   0 /s] ([   0 /s])2017-08-04 18:32:31.469615 /root/local/util/compute-driver/local/compute-execute: line 141: kill: (10545) - No such process
+2017-08-04 18:32:31.469759 /root/local/util/compute-driver/local/compute-execute: line 141: kill: (10558) - No such process
+2017-08-04 18:32:31.469805 /root/local/util/compute-driver/local/compute-execute: line 141: kill: (10559) - No such ploading dd_tmp_sentences: 0:00:36    5  [ 136m/s] ([ 136m/s])s])
+2017-08-04 18:32:32.015706 ERROR:  missing data for column "sentence_index"
+2017-08-04 18:32:32.015828 CONTEXT:  COPY dd_tmp_sentences, line 1: "#"
+2017-08-04 18:32:32.868830 Parsing document 719699f9-47be-4bc7-969b-b53a881c95ae...
+2017-08-04 18:32:32.869151 Parsing document 609772bc-0672-4db5-8516-4c025cfd54ca...
+2017-08-04 18:32:32.988572 [ERROR] command='"$DEEPDIVE_APP"/udf/nlp_markup.sh': PID 10545: finished with non-zero exit status (0)
+2017-08-04 18:32:32.989075 /root/local/util/compute-driver/local/compute-execute: line 138: 10546 Terminated              DEEPDIVE_CURRENT_PROCESS_INDEX=$i bash -c "$command" < process-$i.input > process-$i.output
+2017-08-04 18:32:32.989177 /root/local/util/compute-driver/local/compute-execute: line 138: 10547 Terminated              DEEPDIVE_CURRENT_PROCESS_INDEX=$i bash -c "$command" < process-$i.input > process-$i.output
+2017-08-04 18:32:32.989215 /root/local/util/compute-driver/local/compute-execute: line 138: 10551 Terminated              mkmimo process-*.output \> output_computed-*
+2017-08-04 18:32:32.989243 /root/local/util/compute-driver/local/compute-execute: line 138: 10552 Terminated              deepdive-load "$output_relation_tmp" output_computed-*
+2017-08-04 18:32:40.754043 Parsing document 1aa9d1b0-e6ba-4a48-ad0c-66552d896aac...
+2017-08-04 18:32:41.012860 Parsing document 15d96c82-1705-431f-83ca-bac60a6efcf5...
+2017-08-04 18:32:41.445027 Parsing document a080f99a-07d9-47d1-8244-26a540017b7a...
+2017-08-04 18:32:41.604998 Parsing document 3c5636e8-06b7-43fd-8a80-0e8535f45cb2...
+2017-08-04 18:32:41.896825 Parsing document ba44d0cd-bff2-4875-8036-86f37419b5e7...
+2017-08-04 18:32:42.647998 Parsing document 402f6983-3300-4546-82c5-6f4eb08d0ba7...
+2017-08-04 18:32:43.375032 Parsing document 286868ed-ab9a-4990-a4af-436df8c5bff2...
+2017-08-04 18:32:43.551623 Parsing document ebcd41ea-e5b4-43a4-9e16-4406d81cfcda...
+2017-08-04 18:32:43.556298 Aug 04, 2017 6:32:43 PM edu.stanford.nlp.process.PTBLexer next
+2017-08-04 18:32:43.556355 WARNING: Untokenizable: � (U+FFFD, decimal: 65533)
+2017-08-04 18:32:43.670182 Parsing document c5f8a528-cc0f-4f3e-aaef-b9e3b6b00325...
+2017-08-04 18:32:44.740891 Parsing document 005d3017-7e99-492b-ac40-7b0f56366f2c...
+2017-08-04 18:32:45.473164 Parsing document feef579d-73aa-493a-a34f-4d31ed05663f...
+2017-08-04 18:32:45.697548 Parsing document b5bd25f7-ad0d-4933-b91f-d6cc3883de73...
+2017-08-04 18:32:46.096486 Parsing document 9c957b52-513a-4b74-9f40-dd2db587153a...
+2017-08-04 18:32:46.345758 Parsing document 6d899e17-59a0-4113-a86c-438ec499ac92...
+2017-08-04 18:32:46.712168 Parsing document 29577f5d-b486-45a2-9953-7d0bcd3bd778...
+2017-08-04 18:32:46.763222 Parsing document 0d2211a7-7dd4-49de-ae02-5737f8bff7fe...
+2017-08-04 18:32:47.060848 Parsing document 54e47c81-a1db-4a0f-8bcd-dd0c4c91bdf6...
+2017-08-04 18:32:47.147500 Parsing document b7d890c6-ac0c-4df1-80ce-f5cfd885fd71...
+2017-08-04 18:32:47.378210 Parsing document 0d07e617-00d4-4866-aee2-0ae197ae366f...
+2017-08-04 18:32:47.829933 Parsing document 9842e4a1-3640-43c0-a92f-1726ab16c010...
+2017-08-04 18:32:47.831560 Aug 04, 2017 6:32:47 PM edu.stanford.nlp.process.PTBLexer next
+2017-08-04 18:32:47.831620 WARNING: Untokenizable: ️ (U+FE0F, decimal: 65039)
+2017-08-04 18:32:48.391082 Parsing document 8ac397e6-f25b-436c-bb1a-203b4f7f44f3...
+2017-08-04 18:32:48.508611 Parsing document ba92b817-c59f-45e8-a97f-16a88fda3086...
+‘run/ABORTED’ -> ‘20170804/175738.876354790’
+root@infinity-optiplex-3040:~/deepdive-0.8-STABLE/examples/spouse# 
+
