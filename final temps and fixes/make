@@ -1,0 +1,14 @@
+mkdir new
+cp run.bash ./new
+mv *.py ./new
+mv test.pdf ./new
+mv readme.txt ./new
+rm *
+mv ./new/* ./
+rm -r new
+pdf2htmlEX test.pdf --embed 'cFijo'
+python extract_from_css.py
+python fix.py
+bash get_saiki.bash
+python get_software_guesses.py
+python get_software_guesses_with_tags.py
